@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-DD6TGLHT02"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-DD6TGLHT02");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PixelDesigns | Web Projects</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="nav-inner">
+        <a href="index.html" class="logo">
+          <!-- my logo -->
+          <img
+            src="media/myLogo.png"
+            alt="Pixel designs logo"
+            width="66"
+            height="46"
+            class="no-lightbox"
+          />
+          <span>PixelDesigns</span>
+        </a>
+        <button
+          class="hamburger"
+          id="hamburger"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+          aria-controls="navLinks"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav id="navLinks" class="nav-links" aria-label="Main navigation">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="logic-programs.html" class="nav-link">Logic Programs</a>
+          <a href="web-projects.html" class="nav-link active">Web Projects</a>
+          <a href="graphic-work.html" class="nav-link">Graphic Work</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-header">
+        <div class="container">
+          <h1>Web Projects</h1>
+          <p>Live builds, from concept to deployment.</p>
+        </div>
+      </section>
+
+      <!-- project grid -->
+      <section class="section">
+        <div class="container">
+          <h2>My Builds</h2>
+          <div class="grid-2">
+            <!-- Card 1: Fake client Page Build -->
+            <div class="card">
+              <img
+                src="media/pottsSiteDesign.png"
+                alt="Restoration Base screenshot"
+              />
+              <h3>Client Page Build</h3>
+              <p>
+                This is a client page build for a local business. The design was
+                provided by the client, and I implemented it using HTML, CSS,
+                and JavaScript. The site is fully responsive and includes
+                interactive elements to enhance user experience.
+              </p>
+              <div class="card-btns">
+                <a
+                  href="https://blincoechad.github.io/SchoolWebPage/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live Site
+                </a>
+                <a
+                  href="https://github.com/Blincoechad/SchoolWebPage"
+                  class="btn btn-secondary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+
+            <!-- Card 2: Website Redesign with split before/after lightbox -->
+            <div class="card card-redesign">
+              <h3>Website Redesign</h3>
+              <p>
+                This was an old website redesign project where I took an
+                outdated landing page and gave it a modern, fresh look.
+              </p>
+              <div class="redesign-container">
+                <!-- Before/After split lightbox wrapper -->
+                <figure class="split-image">
+                  <div class="redesign-preview split-image__item">
+                    <span class="preview-label">Before</span>
+                    <img
+                      src="media/beforeSite.png"
+                      alt="Medical product Website Before redesign"
+                    />
+                    <div class="card-btns">
+                      <a
+                        href="https://www.pnwx.com"
+                        class="btn btn-primary before-btn"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Live Site
+                        <br />
+                        (before)
+                      </a>
+                    </div>
+                  </div>
+                  <div class="redesign-preview split-image__item">
+                    <span class="preview-label">After</span>
+                    <img
+                      src="media/afterSite.png"
+                      alt="Medical product website After redesign"
+                    />
+                    <div class="card-btns preview-btns">
+                      <a
+                        href="https://blincoechad.github.io/SiteRebuild/"
+                        class="btn btn-primary"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Live Site (After)
+                      </a>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+              <div class="card-btns github-btn-row">
+                <a
+                  href="https://github.com/Blincoechad/SiteRebuild"
+                  class="btn btn-secondary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt-bg">
+        <div class="container center">
+          <h2>Have a website idea?</h2>
+          <p>Let's design and build one that stands out!</p>
+          <a href="contact.html" class="btn btn-primary">Contact Me</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-grid">
+          <div class="footer-col footer-col--about">
+            <h3>About</h3>
+            <p>
+              Built by Chad Blincoe — Crafting clean, responsive web
+              experiences.
+            </p>
+          </div>
+          <div class="footer-col footer-col--links">
+            <h3>Quick Links</h3>
+            <nav aria-label="Footer navigation">
+              <a href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="logic-programs.html">Logic Programs</a>
+              <a href="web-projects.html">Web Projects</a>
+              <a href="graphic-work.html">Graphic Work</a>
+              <a href="contact.html">Contact</a>
+            </nav>
+          </div>
+          <div class="footer-col footer-col--contact">
+            <h3>Contact</h3>
+            <p>
+              <strong>Phone:</strong>
+              <a href="tel:+15551234567">
+                <span class="footer-contact-text">+1 (555) 123-4567</span>
+              </a>
+            </p>
+            <p>
+              <strong>Email:</strong>
+              <a href="mailto:pixeldesigns.blincoe@gmail.com">
+                <span class="footer-contact-text">
+                  PixelDesigns.blincoe@gmail.com
+                </span>
+              </a>
+            </p>
+            <p>
+              <strong>Address:</strong>
+              Lakeland, FL
+            </p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Pixel Designs. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="scripts.js" type="module" defer></script>
+  </body>
+</html>
